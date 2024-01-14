@@ -13,7 +13,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className="min-h-screen bg-slate-300 heropattern-boxes-slate-200">
+        <div className="font-lemon min-h-screen bg-slate-300 heropattern-boxes-slate-200">
           <Header />
           {children}
         </div>
